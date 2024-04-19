@@ -10,7 +10,7 @@ function Home() {
     <Navbar expand="lg" className="navbar">
       <Container className='container'>
         <div>
-        <Navbar.Brand className='nav-brand' href="#home">Mohammed Hussain </Navbar.Brand>
+        <Navbar.Brand className='nav-brand' href="#home" as={Link} to={'/'}>Mohammed Hussain </Navbar.Brand>
         </div>
         <div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
