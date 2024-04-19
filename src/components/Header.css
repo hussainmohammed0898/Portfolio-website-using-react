@@ -1,0 +1,31 @@
+/* Header */
+.navbar{
+  background-color: var(--color-base);
+}
+
+.nav-brand{
+  color: var(--color-brand);
+}
+
+.navbar .nav-link{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+.navbar .nav-link:hover{
+  color: var(--color-brand);
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-btn{
+  color: var(--color-base);
+  border-radius: 1rem;
+}
+.nav-btn img{
+  object-fit: cover;
+  height: 1rem;
+  width: 1rem;
+}

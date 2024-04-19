@@ -1,0 +1,21 @@
+ /* Contact */
+ .form-control{
+    background-color: var(--color-base);
+    border-color: var(--color-base);
+    color: var(--color-body);
+}
+t .form-control:focus{
+    border-color: var(--color-brand);
+    box-shadow: none;
+    background-color: var(--color-base);
+}
+.form-control::placeholder{
+    color: var(--color-body);
+}
+ input.form-control{
+    height: 44px;   
+}
+.alert-message{
+    color: red;
+    
+}
