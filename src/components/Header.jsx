@@ -16,12 +16,12 @@ function Home() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className='nav-link' as={Link}  to='/'>Home</Nav.Link>
-            <Nav.Link className='nav-link' as={Link} to={'/about'}>About</Nav.Link>
-            <Nav.Link className='nav-link' as={Link} to={'/skills'} >Skills</Nav.Link>
-            <Nav.Link className='nav-link' as={Link} to={'/projects'}>Projects</Nav.Link>
+            <Nav.Link className='nav-link link-custom' as={Link}  to='/'>Home</Nav.Link>
+            <Nav.Link className='nav-link link-custom' as={Link} to={'/about'}>About</Nav.Link>
+            <Nav.Link className='nav-link link-custom' as={Link} to={'/skills'} >Skills</Nav.Link>
+            <Nav.Link className='nav-link link-custom' as={Link} to={'/projects'}>Projects</Nav.Link>
           </Nav>
-        <Button className='nav-btn' variant="warning" as={Link} to={'/contact'}>
+        <Button className='nav-btn ms-lg-2' as={Link} to={'/contact'}>
           <img src={contactImg} alt="" />
           Conatct</Button>
           </Navbar.Collapse>

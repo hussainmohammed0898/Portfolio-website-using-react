@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import './Project.css'
+
 
 
 function Projects() {
@@ -51,7 +51,7 @@ function Projects() {
         <Card.Text>
           {projects.discription}
         </Card.Text>
-        <Button variant="primary" as={Link} to={projects.link} className='link-custom'>Visit</Button>
+        <Button variant="primary" as={Link} to={projects.link} className='link-custom'>Link</Button>
       </Card.Body>
     </Card>
           </Col>
