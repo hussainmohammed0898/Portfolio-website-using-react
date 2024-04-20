@@ -27,6 +27,8 @@ function Contact() {
     const validationError = {}
     if(!formData.fullname.trim()){
       validationError.fullname = 'Fullname is required'
+    }else if(formData.fullname.length < 3){
+      validationError.fullname = 'Fullname should have at least 3 character'
     }
     if(!formData.number.trim()){
       validationError.number = 'Phone nummber is required'
