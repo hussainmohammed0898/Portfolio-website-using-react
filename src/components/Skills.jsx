@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React, { useState } from 'react'
 import './skill.css'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 
@@ -7,7 +7,7 @@ function Skills() {
   
   const [skill] = useState([
     {
-      title:'HTML',
+      title:'HTMLyyy',
       img: 'https://wallpapercave.com/wp/wp7421222.jpg'
     },
     {
@@ -42,6 +42,8 @@ function Skills() {
   ])
 
  
+
+ 
   return (
     <section className='full-height px-lg-5'>
     <Container>
@@ -51,10 +53,10 @@ function Skills() {
            <h1 data-aos="fade-up"  data-aos-delay="500">Acquired Skills</h1>
              </div>
       <Row xs={1} md={4} className="g-4" data-aos="fade-up"  data-aos-delay="700">
-        {skill.map((skills)=>{
+        {skill.map((skills)=>{ 
           
         
-       return  ( <Col>  
+       return  (  <Col >  
                <Card className='card bg-base p-4 rounded-4 shadow-effect' >
             <Card.Img variant="top" src={skills.img} />
             <Card.Body>
